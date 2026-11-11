@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GS Nyarugugu | Official School Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <div class="logo-icon">GS</div>
+        <div>
+            <h2>GS NYARUGUGU</h2>
+            <small>Education for a Better Future</small>
+        </div>
+    </div>
+
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+    <nav id="navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#academics">Academics</a>
+        <a href="#news">News</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+        <a href="#login" class="login-btn">Login</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <div class="hero-content">
+        <p class="welcome">WELCOME TO OUR SCHOOL</p>
+        <h1>GS NYARUGUGU</h1>
+        <h2>Building Knowledge, Creating Leaders</h2>
+        <p>
+            Welcome to GS Nyarugugu. We are committed to providing
+            quality education and developing responsible citizens
+            for a brighter future.
+        </p>
+        <a href="#about" class="btn">Discover Our School</a>
+    </div>
+</section>
+
+<section class="section" id="about">
+    <h2 class="section-title">About Our School</h2>
+    <p class="intro">
+        GS Nyarugugu is dedicated to academic excellence,
+        discipline, creativity and the development of students.
+    </p>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Our Mission</h3>
+            <p>To provide quality education and develop knowledgeable,
+            skilled and responsible students.</p>
+        </div>
+
+        <div class="card">
+            <h3>Our Vision</h3>
+            <p>To become a center of excellence that prepares students
+            for a successful future.</p>
+        </div>
+
+        <div class="card">
+            <h3>Our Values</h3>
+            <p>Discipline, respect, teamwork, responsibility and
+            academic excellence.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section academics" id="academics">
+    <h2 class="section-title">Our Academics</h2>
+    <p class="intro">Learning today for a better tomorrow.</p>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Science</h3>
+            <p>Developing scientific knowledge and critical thinking.</p>
+        </div>
+
+        <div class="card">
+            <h3>Mathematics</h3>
+            <p>Building problem-solving and analytical skills.</p>
+        </div>
+
+        <div class="card">
+            <h3>Languages</h3>
+            <p>Improving communication and language skills.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section news" id="news">
+    <h2 class="section-title">School News & Events</h2>
+
+    <div class="card">
+        <h3>Welcome to GS Nyarugugu</h3>
+        <p>Visit our school website for important announcements,
+        academic updates and school activities.</p>
+    </div>
+</section>
+
+<section class="section" id="gallery">
+    <h2 class="section-title">Our School Gallery</h2>
+    <div class="gallery">
+        <div class="gallery-item">School Activities</div>
+        <div class="gallery-item">Students</div>
+        <div class="gallery-item">Learning</div>
+    </div>
+</section>
+
+<section class="section contact" id="contact">
+    <h2 class="section-title">Contact Us</h2>
+    <p>GS Nyarugugu</p>
+    <p>Rwanda</p>
+    <p>Email: Add your official school email</p>
+    <p>Phone: Add your school phone number</p>
+</section>
+
+
+<section class="section login-section" id="login">
+    <h2 class="section-title">School Portal</h2>
+
+    <div class="login-card">
+        <h3>Welcome to GS Nyarugugu</h3>
+        <p>Login to your school account.</p>
+
+        <select id="role">
+            <option value="student">Student</option>
+            <option value="teacher">Teacher</option>
+            <option value="admin">Administrator</option>
+        </select>
+
+        <input type="text" id="username" placeholder="Username">
+
+        <input type="password" id="password" placeholder="Password">
+
+        <button class="btn" onclick="login()">Login</button>
+
+        <p id="login-message"></p>
+    </div>
+</section>
+
+<footer>
+    <h3>GS NYARUGUGU</h3>
+    <p>Education for a Better Future</p>
+    <p>© <span id="year"></span> GS Nyarugugu. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
